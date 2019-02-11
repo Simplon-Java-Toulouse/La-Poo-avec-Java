@@ -27,13 +27,21 @@ p1.display() aura pour résultat : <dupont henri 51ans habitant 3 rue des rosier
 8.8 : ajouter à votre classe Fraction une méthode addition de 2 fractions 
 
 ++ vos programmes doivent précisemment répondre aux besoins exprimé
+
 ++ en cas de doute sur l'énoncé, n'hésitez pas à solliciter votre client pour des précisions
+
 ++ s'habituer à réaliser les exercices en anglais
+
 ++ respecter les règles d'écriture de code (maj-min)
+
 ++ Vous pouvez utiliser les outils d'Eclipse pour générer du code
+
 ++ Les noms de classe, attributs, méthodes et variables doivent être explicite et compréhensible de tous
+
 ++ attention à l'indentation
+
 ++ commenter vos codes
+
 ++ une fois tous ces critères respectés, vous pouvez mettre votre projet sur github et partager le lien
 
 
