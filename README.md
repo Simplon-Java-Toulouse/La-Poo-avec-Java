@@ -50,9 +50,9 @@ veille sur la notion d'héritage
 
 Exercice 9 : (TP9-héritage, visibilité, package, class Object/toString())
 
-9.1 : Dans votre projet TP9, commencer cette fois ci par créer un package "co.simplon.towns" puis dans celui ci une classe Capitale qui hérite de la classe Ville avec comme particularité d'avoir un monument tel que Paris est une Ville avec un monument la tour Eiffel (n'oublier d'ajouter la classe Ville dans votre package) puis ajouter une classe de Test avec un main dans votre package afin d'instancier plusieurs capitale, les modifier via les accesseurs et les afficher in fine via la méthode toString().
+9.1 : Dans votre projet TP9, commencer cette fois ci par créer un package "co.simplon.towns" puis dans celui ci une classe Capitale qui hérite de la classe Ville avec comme particularité d'avoir un monument. En effet, Paris est une Ville avec un monument la tour Eiffel ! (n'oublier d'ajouter la classe Ville dans votre package) puis ajouter une classe de Test avec un main dans votre package afin d'instancier plusieurs capitale, les modifier via les accesseurs et les afficher in fine via la méthode toString() au lieu de display()
 
-9.2 : Créer un package "co.simplon.peoples" puis Ecrire la classe Employe qui hérite de Personne tel qu'un Employé est une Personne avec comme particularité d'être dans une entreprise avec un salaire. Puis créer une classe Test et dans votre main, utiliser un tableau de 10 instances d'Employe à parcourir pour afficher les informations de chaque employé la aussi à l'aide de la méthode toString(). Reproduisez le même test avec une liste, qu'en déduisez-vous ?
+9.2 : Créer un package "co.simplon.peoples" puis Ecrire la classe Employe qui hérite de Personne tel qu'un Employé est une Personne avec comme particularité d'être dans une entreprise avec donc un salaire. Puis créer une classe Test et dans votre main, utiliser un tableau de 10 instances d'Employe à parcourir pour afficher les informations de chaque objet la aussi à l'aide de la méthode toString(). Reproduisez le même test avec une liste, qu'en déduisez-vous ?
 
 9.3 : Créer un package "co.simplon.shapes" et Ecrire les classes Triangle, Carré et Cercle avec leurs attributs à trouver, ajouter une méthode qui calcule l'air d'une forme géométrique. Que constatez vous ?
 
@@ -63,23 +63,23 @@ veille sur les notions de classe abstraites et les interfaces
 
 Exercice 10 : méthodes et classes Abstraites
 
-10.1 : Reprendre l'exercice 9.3 et trouver un moyen d'éviter les redondances de code en utilisant l'héritage
+10.1 : Reprendre l'exercice 9.3 et trouver un moyen d'éviter les redondances de code
 
 10.2 : Trouver un moyen d'éviter l'instanciation de la classe Shape (forme géométrique)
 
-10.3 : Réaliser un tableau d'objet ou une liste de Shape contenant des triangles, cerles et carrés instanciés avant d'être ajouté, parcourir vos objets puis afficher via leur méthode toString()
+10.3 : Réaliser une liste de Shape contenant des triangles, cerles et carrés instanciés avant d'être ajouté, puis une boucle while pour parcourir vos objets de votre liste et les afficher via leur méthode toString() et appeler la methode area() de chacuns.
 
 
 **JEUDI :**
 veille sur git-github avec Eclipse
 
-Kata : Vous travaillez pour un vendeur d'imprimantes et vous les livrer avec des drivers (listes de méthodes) qui permettent au systeme d'exploitation d'utiliser votre imprimante comme il se doit aussi quelles sont les méthodes que l'exploitant (linux,windows,android...) doit obligatoirement redefinir pour exploiter correctement votre imprimante.
+Kata : Utiliser tous les concepts vus (poo, héritage, interface) pour représenter un SI d'information complexe comprenant : voiture, vélo, utilitaire, moto, 4*4, camions, bateau à voile, bateau à moteur, avion...
 
 REVISIONS
 
 **VENDREDI :**
 veille sur le génie logiciel
 
-11.1 : (package "co.simplon.transports") Reprendre l'exercice 8.6 et utiliser l'héritage pour gérer l'agrandissement du parc de voitures de notre concessionnaire comprenant plusieurs type de moyen de transport (utilitaire, familiale, moto, 4*4, camions, berline, bateau, avion)
+Les Rdv du vendredi (rencontre avec des professionnels du métier, opquast, Cv + recherche alternance, masterclass...)
 
 Terminer tous les exercices de la semaine et les mettre sur GitHub une fois fonctionnels avec tous les critères respectés.
