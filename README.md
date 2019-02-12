@@ -9,7 +9,7 @@ Exercice 8 : (projet TP8-Poo sur les notions de classes et d'objets, constructeu
 
 8.1 : crée une première classe Ville avec pour attributs nom, pays, nbHabitants, définir au moins 1 constructeur. Après quoi, un programme de test dans le main pour instancier votre classe et obtenir le résultat suivant : Ville v1 = new Ville("TOULOUSE" , "FRANCE" , 500000); répétez l'instanciation de votre classe avec plusieurs villes v2,v3... puis afficher les attributs de chaque ville.
 
-8.2 : Toujours dans votre classe Ville, mettez en place vos accesseurs(getter et setter) pour empecher l'utilisateur de changer vos attributs sans votre approbation, par ex, en empechant ce genre de modif ici : v1.nbHabitants = -200.
+8.2 : Toujours dans votre classe Ville, mettez en place vos accesseurs(getter et setter) pour empecher l'utilisateur de changer vos attributs sans votre approbation, par ex, en empechant ce genre de modif ici : v1.nbHabitants = -200. Faire un programme de test en réalisant cette fois-ci une classe Test.java avec un main pour instancier vos objets et utiliser vos accesseurs.
 
 8.3 : crée une méthode pour afficher les attributs d'une ville tel que v1.display() aura pour résultat : <ville de TOULOUSE en FRANCE avec 500000 habitants>
 
@@ -50,7 +50,7 @@ veille sur la notion d'héritage
 
 Exercice 9 : (TP9-héritage, visibilité, package, class Object/toString())
 
-9.1 : Dans votre projet TP9, commencer cette fois ci par créer un package "co.simplon.towns" puis dans celui ci une classe Capitale qui hérite de la classe Ville avec comme particularité d'avoir un monument -> Paris est une Ville avec un monument la tour Eiffel (n'oublier d'ajouter la classe Ville dans votre package) puis ajouter une classe de Test avec un main dans votre package afin d'instancier plusieurs capitale, les modifier via les accesseurs et les afficher in fine via la méthode toString().
+9.1 : Dans votre projet TP9, commencer cette fois ci par créer un package "co.simplon.towns" puis dans celui ci une classe Capitale qui hérite de la classe Ville avec comme particularité d'avoir un monument tel que Paris est une Ville avec un monument la tour Eiffel (n'oublier d'ajouter la classe Ville dans votre package) puis ajouter une classe de Test avec un main dans votre package afin d'instancier plusieurs capitale, les modifier via les accesseurs et les afficher in fine via la méthode toString().
 
 9.2 : Créer un package "co.simplon.peoples" puis Ecrire la classe Employe qui hérite de Personne tel qu'un Employé est une Personne avec comme particularité d'être dans une entreprise avec un salaire. Puis créer une classe Test et dans votre main, utiliser un tableau de 10 instances d'Employe à parcourir pour afficher les informations de chaque employé la aussi à l'aide de la méthode toString(). Reproduisez le même test avec une liste, qu'en déduisez-vous ?
 
@@ -67,9 +67,8 @@ Exercice 10 : méthodes et classes Abstraites
 
 10.2 : Trouver un moyen d'éviter l'instanciation de la classe Shape (forme géométrique)
 
-10.3 : Réaliser un tableau d'objet ou une liste de Shape contenant des triangles, cerles et carrés instanciés avant d'être ajouté, parcourir vos objets puis afficher
+10.3 : Réaliser un tableau d'objet ou une liste de Shape contenant des triangles, cerles et carrés instanciés avant d'être ajouté, parcourir vos objets puis afficher via leur méthode toString()
 
-10.4 : Refaire la même chose avec l'exercice 9.4 et mettre en oeuvre classe absraite et polymorphisme
 
 **JEUDI :**
 veille sur git-github avec Eclipse
@@ -82,6 +81,5 @@ REVISIONS
 veille sur le génie logiciel
 
 11.1 : (package "co.simplon.transports") Reprendre l'exercice 8.6 et utiliser l'héritage pour gérer l'agrandissement du parc de voitures de notre concessionnaire comprenant plusieurs type de moyen de transport (utilitaire, familiale, moto, 4*4, camions, berline, bateau, avion)
-
 
 Terminer tous les exercices de la semaine et les mettre sur GitHub une fois fonctionnels avec tous les critères respectés.
